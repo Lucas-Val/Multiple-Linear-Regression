@@ -35,8 +35,7 @@ model2$residuals
 
 # Plotting residual vs fitted plot
 plot(model2$fitted, model2$residuals, xlab = "Fitted values",
-     ylab = "Resdiduals"
-     )
+     ylab = "Resdiduals")
 
 # Model diagnostic plots
 par(mfrow = c(2,2))
