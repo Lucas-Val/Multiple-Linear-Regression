@@ -1,6 +1,5 @@
 # Exploring the data
 adv = read.csv("Advertising.csv")
-dim(adv)
 names(adv)
 sapply(adv, class)
 str (adv)
